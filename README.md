@@ -19,10 +19,12 @@ To view or modify this project, follow these steps:
    ```bash
    git clone https://github.com/your-username/facebook-login-clone.git
 2. **Navigate to the Project Directory:**
+   
     ```bash
    cd facebook-login-clone
 3. **Open index.html in Your Browser:**
-   Simply open the index.html file in your preferred web browser to view the login page clone.
+   
+   Simply open the `index.html` file in your preferred web browser to view the login page clone.
 
 ## Contributions
 Contributions are welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.
