@@ -7,9 +7,9 @@ This project is a replica of Facebook's login page with added functionality to n
 - **Login Page**: Users can log in by entering their email or phone number and password.
 - **Create Account Page**: Provides a form for new users to sign up for a Facebook account.
 - **Forgotten Password Page**: Allows users to recover their account in case they've forgotten their password.
-- Responsive Design: The page layout adapts to different screen sizes, ensuring a consistent experience across various devices.
-- Form Validation: Basic form validation is implemented to enhance the user experience.
-- Clean and Simple Code: The project emphasizes clean, well-structured, and commented code for easy understanding and maintenance.
+- **Responsive Design**: The page layout adapts to different screen sizes, ensuring a consistent experience across various devices.
+- **Form Validation**: Basic form validation is implemented to enhance the user experience.
+- **Clean and Simple Code**: The project emphasizes clean, well-structured, and commented code for easy understanding and maintenance.
 
 ## Technologies Used
 - **HTML**: For structuring the web pages.
