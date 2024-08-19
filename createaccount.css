@@ -354,3 +354,151 @@ input[type="email"]:focus {
     margin-top: 20px;
     margin-left: 120px;
 }
+
+/* Respondive Design */
+
+@media only screen and (max-width: 768px) {
+    .firstsection {
+        max-width: 90%;
+        margin-top: 10px;
+    }
+
+    .fb-logo {
+        width: 250px;
+    }
+
+    .container {
+        width: 95%;
+        height: auto;
+        max-width: 380px;
+    }
+
+    .cna {
+        font-size: 22px;
+    }
+
+    .qe {
+        font-size: 14px;
+    }
+
+    #f-name,
+    #s-name,
+    #email,
+    #password {
+        width: 95%;
+        font-size: 14px;
+        margin: 8px auto;
+    }
+
+    .name .sub-box {
+        width: 40%;
+    }
+
+    #birth_date,
+    #birth_month,
+    #birth_year {
+        width: 110px;
+    }
+
+    .female,
+    .male,
+    .custom {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .btn-SU {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .al-acc {
+        font-size: 15px;
+    }
+
+    .language {
+        margin-left: 50px;
+    }
+
+    .text div {
+        margin-left: 50px;
+    }
+
+    .TC {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .firstsection {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .fb-logo {
+        width: 200px;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        max-width: 350px;
+    }
+
+    .cna {
+        font-size: 20px;
+    }
+
+    .qe {
+        font-size: 12px;
+    }
+
+    #f-name,
+    #s-name,
+    #email,
+    #password {
+        width: 100%;
+        font-size: 13px;
+        margin: 6px auto;
+    }
+
+    .name .sub-box {
+        width: 45%;
+    }
+
+    #birth_date,
+    #birth_month,
+    #birth_year {
+        width: 100px;
+    }
+
+    .female,
+    .male,
+    .custom {
+        width: 90px;
+        font-size: 13px;
+    }
+
+    .btn-SU {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .al-acc {
+        font-size: 14px;
+    }
+
+    .language {
+        margin-left: 20px;
+    }
+
+    .text div {
+        margin-left: 20px;
+    }
+
+    .TC {
+        margin-left: 20px;
+    }
+}
