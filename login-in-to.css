@@ -59,10 +59,6 @@ body {
     margin-left: 7px;
 }
 
-.box input[type="password"],input[type="email"]:focus{
-    outline:none;
-    border-color: transparent;
-}
 
 #email,
 #password {
@@ -79,7 +75,10 @@ body {
     opacity: 0.9;
 }
 
-#email:focus,#password:focus {
+#email:focus,
+#password:focus {
+    outline: 2px solid lightblue;
+    border: 1px solid rgb(5, 8, 214);
     opacity: 0.6;
 }
 
@@ -102,12 +101,14 @@ body {
 }
 
 .f-a {
+    display: flex;
+    justify-content: center;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: blue;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 7px;
+    padding-bottom: 10px;
     text-align: center;
     text-decoration: none;
     opacity: 0.8;
@@ -157,6 +158,30 @@ body {
     background-color: #2daa14;
 }
 
+.btn-cna a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 4vh;
+}
+
+.para a {
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.para a:hover {
+    text-decoration: underline;
+}
+
 /* Footer Section */
 .last-section {
     width: 100%;
@@ -190,24 +215,24 @@ body {
 
 .language li:first-child {
     font-family: "Roboto", sans-serif;
-    font-size: 13px;
-    color: rgb(0, 0, 0);
-    opacity: 0.7;
+    font-size: 12px;
+    color: #232425;
+    opacity: 0.8;
     text-decoration: none;
     cursor: default;
 }
 
 .language li button {
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
-    width: 35px;
-    height: 20px;
+    width: 30px;
+    height: 22px;
     border-style: none;
     border-radius: 2px;
     background-color: #dde6ddb0;
     opacity: 0.7;
-    padding-bottom: 26px;
+    padding-bottom: 20px;
 }
 
 .language li button:hover {
@@ -220,8 +245,8 @@ body {
     content: '';
     height: 1px;
     position: absolute;
-    top: 122%;
-    width: 80%;
+    top: 129%;
+    width: 78%;
     margin: 0px 6px;
 }
 
@@ -252,12 +277,18 @@ body {
     text-decoration: underline;
 }
 
+.text div li a {
+    text-decoration: none;
+    color: #8a8d91;
+}
+
 /* Footer - T&C Section */
 .TC {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: 400;
-    color: #8a8d91;
+    color: #232425;
+    opacity: 0.8;
     text-align: start;
     margin-top: 20px;
     margin-left: 120px;
