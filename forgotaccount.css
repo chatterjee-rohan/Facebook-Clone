@@ -23,10 +23,10 @@ nav {
     height: 10vh;
     background-color: #ffffff;
     box-shadow: 0px 0px 4px 0px #b4b4b4;
-    gap: 40vw;
+    gap: 44vw;
 }
 
-.login-cred{
+.login-cred {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -40,7 +40,7 @@ nav {
 }
 
 #email-nav,
-#password-nav{
+#password-nav {
     font-family: "Roboto", sans-serif;
     height: 5vh;
     width: 14vw;
@@ -55,23 +55,22 @@ nav {
     opacity: 0.9;
 }
 
-#email-nav::placeholder,#password-nav::placeholder{
+#email-nav:hover,
+#password-nav:hover {
+    border-color: #000000;
+}
+
+#email-nav:focus,
+#password-nav:focus {
+    border-color: rgb(6, 9, 241);
+    outline: none;
+    opacity: 0.6;
+}
+
+#email-nav::placeholder,
+#password-nav::placeholder {
     color: #000000;
     opacity: 0.8;
-}
-
-
-#email-nav:hover,#password-nav:hover{
-    border: 1px solid #000000;
-}
-
-#email-nav:focus,#password-nav:focus{
-    outline: none;
-    color: black;
-}
-
-#email-nav:focus,#password-nav:focus {
-    opacity: 0.6;
 }
 
 .btn-li {
@@ -123,14 +122,14 @@ nav {
     margin-top: 80px;
 }
 
-.head{
+.head {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin: 18px;
 }
 
-.sub-head{
+.sub-head {
     font-family: "Roboto", sans-serif;
     font-size: 17px;
     font-weight: 400;
@@ -144,7 +143,7 @@ nav {
     margin-left: 15px;
 }
 
-.container::before{
+.container::before {
     content: '';
     top: 23%;
     position: absolute;
@@ -154,7 +153,7 @@ nav {
     background: #c6cacfc0;
 }
 
-.container::after{
+.container::after {
     content: '';
     top: 77%;
     position: absolute;
@@ -164,8 +163,7 @@ nav {
     background: #c6cacfc0;
 }
 
-#email
-{
+#email {
     font-family: "Roboto", sans-serif;
     height: 7vh;
     width: 100%;
@@ -179,16 +177,17 @@ nav {
     opacity: 0.9;
 }
 
-#email::placeholder{
+#email::placeholder {
     color: #000000;
     opacity: 0.9;
 }
-#email:focus{
-    outline:none;
+
+#email:focus {
+    outline: none;
     opacity: 0.6;
 }
 
-.btn{
+.btn {
     display: flex;
     gap: 7px;
     margin-left: 24vw;
@@ -234,7 +233,6 @@ nav {
     width: 100%;
     background-color: #ffffff;
     margin-top: 80px;
-    height: 50vh;
     padding: 20px 0;
 }
 
@@ -243,7 +241,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 27vh;
+    margin-top: 50px;
     margin-left: 114px;
 }
 
@@ -263,8 +261,8 @@ nav {
 
 .language li:first-child {
     font-family: "Roboto", sans-serif;
-    font-size: 13px;
-    color: rgb(0, 0, 0);
+    font-size: 12px;
+    color: #232425;
     opacity: 0.8;
     text-decoration: none;
     cursor: default;
@@ -272,15 +270,15 @@ nav {
 
 .language li button {
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
-    width: 35px;
-    height: 20px;
+    width: 30px;
+    height: 22px;
     border-style: none;
     border-radius: 2px;
     background-color: #dde6ddb0;
     opacity: 0.7;
-    padding-bottom: 26px;
+    padding-bottom: 20px;
 }
 
 .language li button:hover {
@@ -293,8 +291,8 @@ nav {
     content: '';
     height: 1px;
     position: absolute;
-    top: 122%;
-    width: 80%;
+    top: 103%;
+    width: 78%;
     margin: 0px 6px;
 }
 
@@ -325,12 +323,17 @@ nav {
     text-decoration: underline;
 }
 
+.text div li a {
+    text-decoration: none;
+    color: #8a8d91;
+}
+
 /* Footer - T&C Section */
 .TC {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: 400;
-    color: #000000;
+    color: #232425;
     opacity: 0.8;
     text-align: start;
     margin-top: 20px;
