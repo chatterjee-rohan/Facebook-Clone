@@ -44,7 +44,7 @@ body {
     margin-right: auto;
 }
 
-.cna{
+.cna {
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-size: 25px;
@@ -52,7 +52,7 @@ body {
     margin-top: 10px;
 }
 
-.qe{
+.qe {
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-size: 15px;
@@ -60,7 +60,7 @@ body {
     margin: 5px 0px;
 }
 
-.con-first ::before{
+.con-first ::before {
     content: '';
     top: 14%;
     position: absolute;
@@ -70,17 +70,17 @@ body {
     background: #ccd0d54a
 }
 
-.con-second{
+.con-second {
     display: flex;
     flex-direction: column;
     margin: 15px 0px 2px 0px;
 }
 
-.name{
+.name {
     display: flex;
 }
 
-.name .sub-box{
+.name .sub-box {
     width: 16vw;
 }
 
@@ -116,29 +116,35 @@ body {
     opacity: 0.9;
 }
 
-.con-second input[type="F-Name"],input[type="S-Name"],input[type="password"],input[type="email"]:focus{
-    outline:none;
+.con-second input[type="F-Name"],
+input[type="S-Name"],
+input[type="password"],
+input[type="email"]:focus {
+    outline: none;
     border-color: transparent;
 }
 
-.con-third{
+.con-third {
     margin-left: 12px;
 }
 
-.con-third .dob{
+.con-third .dob {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: normal;
     color: #606770;
 }
 
-.birth-box,.gender-box{
+.birth-box,
+.gender-box {
     display: flex;
     margin: 6px 0px;
     gap: 12px;
 }
 
-#birth_date,#birth_month,#birth_year {
+#birth_date,
+#birth_month,
+#birth_year {
     font-family: "Roboto", sans-serif;
     outline: none;
     border-color: #b4b4b4;
@@ -151,11 +157,15 @@ body {
     width: 120px;
 }
 
-#gender-m,#gender-fm,#gender-cm{
+#gender-m,
+#gender-fm,
+#gender-cm {
     padding-top: 5px;
 }
 
-.female,.male,.custom{
+.female,
+.male,
+.custom {
     display: flex;
     font-family: "Roboto", sans-serif;
     justify-content: space-around;
@@ -168,25 +178,27 @@ body {
     width: 118px
 }
 
-.con-fourth-1st, .con-fourth-2nd {
+.con-fourth-1st,
+.con-fourth-2nd {
     font-family: "Roboto", sans-serif;
     font-size: 11px;
     color: #777;
     margin-left: 12px;
 }
 
-.con-fourth-1st{
+.con-fourth-1st {
     margin-top: 8px;
     margin-bottom: 10px;
 }
 
-.con-fourth-2nd{
+.con-fourth-2nd {
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
 .special {
-    color: #385898;
+    text-decoration: none;
+    color: #2e5cb9;
 }
 
 .special:hover {
@@ -228,14 +240,14 @@ body {
 
 .al-acc:hover {
     cursor: pointer;
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 /* Footer Section */
 .last-section {
     width: 100%;
     background-color: #ffffff;
-    margin-top: 60px;
+    margin-top: 80px;
     padding: 20px 0;
 }
 
@@ -244,7 +256,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: 114px;
 }
 
@@ -252,7 +264,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 13px;
     font-weight: 400;
-    color: #385898;
+    color: #8a8d91;
     list-style: none;
     padding: 0px 6px;
 }
@@ -264,24 +276,24 @@ body {
 
 .language li:first-child {
     font-family: "Roboto", sans-serif;
-    font-size: 13px;
-    color: rgb(0, 0, 0);
-    opacity: 0.7;
+    font-size: 12px;
+    color: #232425;
+    opacity: 0.8;
     text-decoration: none;
     cursor: default;
 }
 
 .language li button {
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
-    width: 35px;
-    height: 20px;
+    width: 30px;
+    height: 22px;
     border-style: none;
     border-radius: 2px;
     background-color: #dde6ddb0;
     opacity: 0.7;
-    padding-bottom: 26px;
+    padding-bottom: 20px;
 }
 
 .language li button:hover {
@@ -294,8 +306,8 @@ body {
     content: '';
     height: 1px;
     position: absolute;
-    top: 135%;
-    width: 80%;
+    top: 145%;
+    width: 78%;
     margin: 0px 6px;
 }
 
@@ -313,7 +325,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: 400;
-    color: #385898;
+    color: #8a8d91;
     list-style: none;
 }
 
@@ -326,12 +338,18 @@ body {
     text-decoration: underline;
 }
 
+.text div li a {
+    text-decoration: none;
+    color: #8a8d91;
+}
+
 /* Footer - T&C Section */
 .TC {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: 400;
-    color: #8a8d91;
+    color: #232425;
+    opacity: 0.8;
     text-align: start;
     margin-top: 20px;
     margin-left: 120px;
