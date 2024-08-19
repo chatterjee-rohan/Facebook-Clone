@@ -295,7 +295,8 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+
+@media only screen and (max-width: 768px) {
     .firstsection {
         margin-top: 20px;
     }
@@ -343,7 +344,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 
     .container {
         width: 80%;
