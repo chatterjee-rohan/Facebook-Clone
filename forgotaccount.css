@@ -339,3 +339,158 @@ nav {
     margin-top: 20px;
     margin-left: 120px;
 }
+
+/*Responsive Design */
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .logo .icon {
+        margin-top: 0;
+        width: 120px;
+        height: 40px;
+    }
+
+    #email-nav,
+    #password-nav {
+        width: 40vw;
+        font-size: 14px;
+    }
+
+    .btn-li {
+        width: 30vw;
+        font-size: 14px;
+        height: 6vh;
+    }
+
+    .container {
+        max-width: 70vw;
+        height: auto;
+    }
+
+    .head {
+        font-size: 18px;
+    }
+
+    .sub-head {
+        font-size: 15px;
+    }
+
+    .box {
+        width: 80%;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    #email {
+        width: 95%;
+        font-size: 15px;
+    }
+
+    .btn {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .cancel,
+    .search {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .language {
+        margin-left: 20px;
+    }
+
+    .text {
+        margin-left: 20px;
+    }
+
+    .TC {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        padding: 8px;
+    }
+
+    .logo .icon {
+        width: 100px;
+        height: 35px;
+    }
+
+    #email-nav,
+    #password-nav {
+        width: 60vw;
+        font-size: 13px;
+    }
+
+    .btn-li {
+        width: 50vw;
+        font-size: 13px;
+        height: 5vh;
+    }
+
+    .container {
+        max-width: 90vw;
+        height: auto;
+    }
+
+    .head {
+        font-size: 16px;
+        margin: 14px;
+    }
+
+    .sub-head {
+        font-size: 14px;
+        margin: 14px;
+    }
+
+    .box {
+        width: 90%;
+        height: auto;
+        margin-left: 5px;
+    }
+
+    #email {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .btn {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    .cancel,
+    .search {
+        width: 60%;
+        font-size: 13px;
+    }
+
+    .language {
+        margin-left: 10px;
+    }
+
+    .text {
+        margin-left: 10px;
+    }
+
+    .TC {
+        margin-left: 10px;
+    }
+}
